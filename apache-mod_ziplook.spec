@@ -6,7 +6,7 @@
 Summary:	Mod_ziplook is a DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	0.99
-Release:	%mkrel 4
+Release:	%mkrel 5
 Group:		System/Servers
 License:	BSD
 URL:		http://pihl.kumpu.org/ziplook/index2.html
@@ -26,8 +26,6 @@ Requires:	apache-conf >= 2.2.0
 Requires:	apache >= 2.2.0
 BuildRequires:	apache-devel >= 2.2.0
 BuildRequires:	file
-Provides:	apache2-mod_ziplook
-Obsoletes:	apache2-mod_ziplook
 Epoch:		1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
