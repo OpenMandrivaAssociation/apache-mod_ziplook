@@ -9,7 +9,7 @@ Version:	0.99
 Release:	16
 Group:		System/Servers
 License:	BSD
-URL:		http://pihl.kumpu.org/ziplook/index2.html
+URL:		https://pihl.kumpu.org/ziplook/index2.html
 Source0: 	%{mod_name}2-%{version}.tar.bz2
 Source1:	%{mod_conf}.bz2
 # http://www.winimage.com/zLibDll/unzip21.zip
